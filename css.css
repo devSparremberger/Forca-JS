@@ -1,0 +1,106 @@
+body{
+    background-image: url(../img/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: 'draw', sans-serif; 
+}
+section{
+   background-color: #232222;
+    border-radius: 10px;
+    padding: 10px;
+    width: 605px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(66, 12, 93);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: 'draw', sans-serif; 
+}
+@font-face {
+  font-family: 'draw';
+  src: url(draw.otf);
+}
+#Java {
+  width: 580px; 
+  height: 520px; 
+  position: relative; 
+  margin-left: auto; 
+  margin-right: auto;}
+#tipo {
+      position: absolute; 
+      left: 380px; 
+      top: 5px; 
+      font-family: 'draw', sans-serif; 
+      font-size: 38pt; 
+      color: #ac047f;
+      
+}
+
+  #dvFrase {
+      position: absolute; 
+      top: 300px; 
+      left: 10px;}
+  .frase {
+    color: #ac047f;
+      width: 45px;
+      font-size: 50pt; 
+      font-family: 'draw', sans-serif; 
+      letter-spacing: 10px; 
+      float: left; 
+      text-align: center;}
+  .erros { 
+    font-family: 'draw', sans-serif; 
+    font-size: 28px;
+    display: inline-block;}
+  #erros {
+    color: #ffffff;
+    position: absolute;
+    }
+  #errosCont {
+    color: #ac047f;}
+  #dvErro {
+    position: absolute; 
+    top: 150px; 
+    left: 390px;}
+  #dvErro input {
+    color: #ffffff;
+    width: 50px; 
+    border-radius: 10px; 
+    outline: none; 
+    padding: 5px;}
+    button {
+      background-color:#ac047f;
+      border: none;
+      padding: 1rem;
+      font-size: 1rem;
+      width: 10em;
+      border-radius: 1rem;
+      color: lightcoral;
+      box-shadow: 0 0.4rem #dfd9d9;
+      cursor: pointer;
+     }
+     
+     button:active {
+      color: white;
+      box-shadow: 0 0.2rem #dfd9d9;
+      transform: translateY(0.2rem);
+     }
+     
+     button:hover:not(:disabled) {
+      background: lightcoral;
+      color: white;
+      text-shadow: 0 0.1rem #bcb4b4;
+     }
+     
+     button:disabled {
+      cursor: auto;
+      color: grey;
+     }
